@@ -20,7 +20,7 @@ get_header(); ?>
 
 				<?php //endwhile; // end of the loop. ?>
 
-			<div id= "contenido">
+		<div id= "contenido">
 				<aside id= "menu-lateral">
 					<ul>
 						<li>
@@ -98,6 +98,6 @@ get_header(); ?>
 					</hgroup>
 					<!--falta poner la paginación -->
 				</section>
-			</div>
+		</div>
 
 <?php get_footer(); ?>
