@@ -22,38 +22,11 @@ get_header(); ?>
 
 		<div id= "contenido">
 				<aside id= "menu-lateral">
-					<ul>
-						<li>
-							<a href="#" title="comentarios">
-								COMENTARIOS
-							</a>
-						</li>
+					
+						<?php dynamic_sidebar( 'comentarios' ); ?>
 
-						<li>
-							<a href="#" title="destacados">
-								DESTACADOS
-							</a>
-						</li>
-
-						<li>
-							<a href="#" title="mas-leidos">
-								MAS LEIDOS
-							</a>
-						</li>
-
-						<li>
-							<a href="#" title="galerias">
-								GALERIAS
-							</a>
-						</li>
-
-						<li>
-							<a href="#" title="citas">
-								CITAS
-							</a>
-						</li>
-
-					</ul>
+						
+						
 				</aside>
 
 				<section>
@@ -71,31 +44,7 @@ get_header(); ?>
 						<button id="ver">Ver mas</button>
 					</hgroup>
 
-					<hgroup clase="noticia-2">
-						<h2>Noticia 2</h2>
-						<figure id="autor">
-							<!--imagen del autor -->
-							<img src="">
-						</figure>
-						<!-- se coloca lo de comentario y like-->
-						<h3>fecha </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</p>
-						<button id="ver">Ver mas</button>
-					</hgroup>
-
-					<hgroup clase="noticia-3">
-						<h2>Noticia 3</h2>
-						<figure id="autor">
-							<!--imagen del autor -->
-							<img src="">
-						</figure>
-						<!-- se coloca lo de comentario y like-->
-						<h3>fecha </h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua.</p>
-						<button id="ver">Ver mas</button>
-					</hgroup>
+					
 					<!--falta poner la paginación -->
 				</section>
 		</div>

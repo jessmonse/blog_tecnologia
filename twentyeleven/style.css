@@ -47,11 +47,34 @@ body
 
 #menu
 	{
+		display: inline;
 		text-align: center;
 		float: left;
 		margin-left: 5px;
 		/*max-width: 10%;*/
 	}
+
+#menu-principal li
+	{
+		display: inline;
+	}
+
+#nav_menu-2
+	{
+		display: inline;
+		position: absolute;
+	    bottom: 0;
+	    width: 80%;
+	    
+	    font-size: 15px;
+	    font-weight: bolder;
+	    margin-top: 12px;
+	    text-align: center;
+	}
+#supplementary
+{
+	float: left;
+}
 
 #logo
 	{

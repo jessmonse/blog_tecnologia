@@ -89,9 +89,10 @@
 					</div>
 
 					<div id= "menu">
-						<button id="internet">INTERNET</button>
+						<!--<button id="internet">INTERNET</button>
 						<button id="software">SOFTWARE</button>
-						<button id="tutoriales">TUTORIALES</button>
+						<button id="tutoriales">TUTORIALES</button>-->
+						<?php wp_nav_menu( array( 'theme_location' => 'primary'));?>
 					</div>
 
 					<div id= "redes-sociales">
