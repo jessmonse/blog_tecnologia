@@ -22,13 +22,11 @@ get_header(); ?>
 
 		<div id= "contenido">
 				<aside id= "menu-lateral">
-					
-						<?php dynamic_sidebar( 'comentarios' ); ?>
-
-						
-						
+				
+					<?php dynamic_sidebar( 'lateral' ); ?>
+									
 				</aside>
-
+				
 				<section>
 					<h1>NOTICIAS Recientes</h1>
 					<hgroup clase="noticia-1">

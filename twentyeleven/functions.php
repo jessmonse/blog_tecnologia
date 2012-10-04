@@ -427,55 +427,16 @@ function twentyeleven_widgets_init() {
 	) );
 
 	register_sidebar( array(
-		'name' => __( 'Menu Lateral comentarios', 'twentyeleven' ),
-		'id' => 'comentarios',
-		'description' => __( 'Te lleva para a los coemntarios', 'twentyeleven' ),
+		'name' => __( 'Menu Lateral', 'twentyeleven' ),
+		'id' => 'lateral',
+		'description' => __( 'Te lleva para a el menu lateral', 'twentyeleven' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => "</aside>",
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
 
-	register_sidebar( array(
-		'name' => __( 'Menu Lateral destacados', 'twentyeleven' ),
-		'id' => 'destacados',
-		'description' => __( 'Te lleva para a los destacados', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name' => __( 'Menu Lateral mas leidos', 'twentyeleven' ),
-		'id' => 'mas-leidos',
-		'description' => __( 'Te lleva para a los mas leidos ', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
-
-	register_sidebar( array(
-		'name' => __( 'Menu Lateral galerias', 'twentyeleven' ),
-		'id' => 'galerias',
-		'description' => __( 'Te lleva para a las galerias', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
-
-
-	register_sidebar( array(
-		'name' => __( 'Menu Lateral citas', 'twentyeleven' ),
-		'id' => 'citas',
-		'description' => __( 'Te lleva para a las citas', 'twentyeleven' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => "</aside>",
-		'before_title' => '<h3 class="widget-title">',
-		'after_title' => '</h3>',
-	) );
+	
 
 	register_sidebar( array(
 		'name' => __( 'Footer Area Two', 'twentyeleven' ),

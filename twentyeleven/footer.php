@@ -16,8 +16,7 @@
 				<div id="supplementary" <?php twentyeleven_footer_sidebar_class(); ?>>
 	
 	
-		<?php dynamic_sidebar( 'legal' ); ?>
-	
+				<?php dynamic_sidebar( 'legal' ); ?>
 	
 			</footer>
 		</div>

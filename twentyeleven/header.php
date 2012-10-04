@@ -83,7 +83,7 @@
 						<a href="#" title="inicio">
 							<figure id = "imagen-inicio"> 
 								<!-- imagen del inicio -->
-								<img src="#" alt="Inico">	
+								<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/home-icon.png" alt="Inico">	
 							</figure>
 						</a>
 					</div>
@@ -100,8 +100,8 @@
 								<li> 
 									<a hred="#" title ="facebook">
 										<figure>
-											<!--imgen -->
-											<img src="imagen/facebook.png">
+											<!--imgen http://localhost:81/tecnologiaemprendedora.mx/images/facebook.png // wp-content\themes\blog_tecnologia\twentyeleven\images-->
+											<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/facebook.png">
 											<br />
 											<caption> facebook </caption>
 											
@@ -113,7 +113,7 @@
 									<a hred="#" title ="tiwtter">
 										<figure>
 											<!--imgen -->
-											<img src="imagen/twitter.png">
+											<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/twitter_icon.png">
 											<br />
 											<caption> @tiwtter </caption>
 											
@@ -125,7 +125,7 @@
 									<a hred="#" title ="pinterest">
 										<figure>
 											<!--imgen -->
-											<img src="">
+											<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/pinterest.png">
 											<br />
 											<caption> pinterest </caption>
 											
