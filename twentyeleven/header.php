@@ -80,7 +80,7 @@
 					</div>
 
 					<div id="inicio">
-						<a href="#" title="inicio">
+						<a href="<?php echo bloginfo('url'); ?>" title="inicio">
 							<figure id = "imagen-inicio"> 
 								<!-- imagen del inicio -->
 								<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/home-icon.png" alt="Inico">	
@@ -133,11 +133,23 @@
 									</a>
 								</li>
 
+								<li> 
+									<a hred="#" title ="RSS">
+										<figure>
+											<!--imgen -->
+											<img src="http://localhost:81/tecnologiaemprendedora.mx/wp-content/themes/blog_tecnologia/twentyeleven/images/rss.png">
+											<br />
+											<caption>RSS</caption>
+											
+										</figure>
+									</a>
+								</li>
+
 							</ul>
 					</div>
 
 					<div id="busqueda">
-						<input type="text" name="q" size="10" />
+						<input type="text" name="q" size="5" />
 	  					<input type="submit" name="sa" value="Buscar" />
   					</div>
 

@@ -12,13 +12,12 @@
 
 <?php wp_footer(); ?>
 
-<footer id="avisos">
-				<div id="supplementary" <?php twentyeleven_footer_sidebar_class(); ?>>
+		<footer id="avisos">
 	
 	
 				<?php dynamic_sidebar( 'legal' ); ?>
 	
 			</footer>
-		</div>
+		</div><!-- cierra página-->
 	</body>
 </html>

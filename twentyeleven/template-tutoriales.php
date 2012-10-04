@@ -26,7 +26,7 @@ get_header(); ?>
 							<figure id="autor">
 								<!--imagen del autor -->
 								<?php twentyeleven_posted_on();?>
-								
+								<?php get_the_post_thumbnail(pag-ID," ");?>
 								<img src="">
 							</figure>
 							<!-- se coloca lo de comentario y like-->
