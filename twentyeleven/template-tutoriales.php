@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Home
+ * Template Name: Template Tutoriales
  * Description: A Page Template that adds a sidebar to pages
  *
  * @package WordPress
@@ -26,7 +26,7 @@ get_header(); ?>
 							<figure id="autor">
 								<!--imagen del autor -->
 								<?php twentyeleven_posted_on();?>
-								<?php get_the_post_thumbnail(pag-ID," ");?>
+								<?php the_post_thumbnail( $size, $attr ); ?>
 								<img src="">
 							</figure>
 							<!-- se coloca lo de comentario y like-->
