@@ -24,7 +24,7 @@ body
 
 #pagina
 	{
-		/*max-width: 900px;*/
+		max-width: 900px;
 		width: 900px;
 		margin: auto;
 		height: auto;
@@ -108,13 +108,13 @@ ul
 #contenido
 	{
 		width: 100%;
-		/*padding-bottom:100px;*/
+		margin-bottom: +50px;
 		float: left;
 	}
 
 #menu-lateral
 	{
-		/*background-color: #000000;*/
+		background: #FF6347;
 		/*position: absolute;*/
 		float: left;
 		width: 30%;
@@ -166,12 +166,27 @@ hgroup>p#comilas-ini
 		margin-top: 0;
 	}
 
+#inicio
+	{
+		background: #20B2AA;
+	}
+
+#internet
+	{
+		background: #9370DB;
+	}
+
+#sofware
+	{
+		background: #2F4F4F;
+	}
+
 #avisos li
 	{
 		float: right;
 		display: inline;
 		margin-right: 20px;
-		background: #3CB371;
+		background: #BDB76B;
 		margin: 0 10px 0 0;
 	}
 
@@ -182,12 +197,24 @@ hgroup>p#comilas-ini
 		
 	    bottom: 0;
 	    width: 100%;
+	    height: 50px;
 	    font-size: 11px;
 	    font-weight: bolder;
 	    text-align: center;
 	    
 	}
 
+footer
+{
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 11px;
+	font-weight: bolder;
+	text-align: center;
+	/*background: #103050;*/
+	position: relative;
+}
 
 
 /*#avisos ul

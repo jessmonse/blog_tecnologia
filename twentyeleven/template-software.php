@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Galerias
+ * Template Name: Template Software
  * Description: A Page Template that adds a sidebar to pages
  *
  * @package WordPress
@@ -11,37 +11,36 @@
 get_header(); ?>
 
 		<div id= "contenido">
+			
 				<aside id= "menu-lateral">
 				
 					<?php dynamic_sidebar( 'lateral' ); ?>
 									
 				</aside>
-				<section>
+				<section id="software">
 					<h1> <?php echo single_cat_title("", false); ?></h1>
-				<?php while ( have_posts() ) : the_post(); ?>
+					<?php while ( have_posts() ) : the_post(); ?>
 					
 						
-						<hgroup clase="galeria">
+						<hgroup clase="noticia-1">
 							<h2><?php the_title();?></h2>
 							<figure id="autor">
 								<!--imagen del autor -->
 								<?php twentyeleven_posted_on();?>
-								<?php the_post_thumbnail( $size, $attr ); ?>
+								
 								<img src="">
 							</figure>
-							
+							<!-- se coloca lo de comentario y like-->
 							<!--<h3><?php getdate();?> </h3>-->
 							<p><?php the_excerpt();?></p>
-							<a href="<?php echo get_permalink(); ?>"  id="ver">
-								 ir a 
-							</a> 
+							<!--<a href="<?php echo get_permalink(); ?>"  id="ver">
+								 ver más 
+							</a>-->
 						</hgroup>
 
-						
-						
-					
-				<?php endwhile; // end of the loop. ?>
-			</section>
+					<?php endwhile; // end of the loop. ?>
+				</section>
+			
 		</div>
 
 <?php get_footer(); ?>
