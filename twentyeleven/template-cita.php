@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Tutoriales
+ * Template Name: Template Citas
  * Description: A Page Template that adds a sidebar to pages
  *
  * @package WordPress
@@ -31,10 +31,16 @@ get_header(); ?>
 							</figure>
 							
 							<!--<h3><?php getdate();?> </h3>-->
-							<p><?php the_excerpt();?></p>
+							<p id="comillas-ini">"</p>
+							<p>
+								<?php the_excerpt();?>
+								<p id= "comillas-fin">"</p>
+							</p>
+							
 							<!--<a href="<?php echo get_permalink(); ?>"  id="ver">
 								 ver más 
 							</a> se quita debido a que el wordpress coloca uno automaticamente-->
+							<br>
 						</hgroup>
 
 						

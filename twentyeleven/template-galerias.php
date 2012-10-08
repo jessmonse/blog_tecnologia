@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Template Tutoriales
+ * Template Name: Template Galerias
  * Description: A Page Template that adds a sidebar to pages
  *
  * @package WordPress
@@ -21,7 +21,7 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					
 						
-						<hgroup clase="noticia-1">
+						<hgroup clase="galeria">
 							<h2><?php the_title();?></h2>
 							<figure id="autor">
 								<!--imagen del autor -->
@@ -32,9 +32,9 @@ get_header(); ?>
 							
 							<!--<h3><?php getdate();?> </h3>-->
 							<p><?php the_excerpt();?></p>
-							<!--<a href="<?php echo get_permalink(); ?>"  id="ver">
+							<a href="<?php echo get_permalink(); ?>"  id="ver">
 								 ver más 
-							</a> se quita debido a que el wordpress coloca uno automaticamente-->
+							</a> 
 						</hgroup>
 
 						

@@ -13,7 +13,7 @@
 <?php wp_footer(); ?>
 
 		<footer id="avisos">
-	
+			
 	
 				<?php dynamic_sidebar( 'legal' ); ?>
 	

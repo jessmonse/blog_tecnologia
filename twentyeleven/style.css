@@ -152,6 +152,20 @@ section h1
 
 	}
 
+hgroup>p#comilas-ini
+	{
+		font-size: 300%;
+		float: left;
+		margin-top: 0;
+	}
+
+#comilas-fin
+	{
+		font-size: 300%;
+		float: right;
+		margin-top: 0;
+	}
+
 #avisos li
 	{
 		float: right;
