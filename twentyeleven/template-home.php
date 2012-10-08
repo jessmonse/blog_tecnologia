@@ -32,9 +32,9 @@ get_header(); ?>
 							<!-- se coloca lo de comentario y like-->
 							<!--<h3><?php getdate();?> </h3>-->
 							<p><?php the_excerpt();?></p>
-							<a href="<?php echo get_permalink(); ?>"  id="ver">
+							<!--<a href="<?php echo get_permalink(); ?>"  id="ver">
 								 ver más 
-							</a>
+							</a>-->
 						</hgroup>
 
 						

@@ -21,7 +21,7 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					
 						
-						<hgroup clase="noticia-1">
+						<hgroup clase="cita-1">
 							<h2><?php the_title();?></h2>
 							<figure id="autor">
 								<!--imagen del autor -->
